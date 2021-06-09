@@ -10,7 +10,7 @@ const Nav = ({storiesStatus, setStoriesStatus}) => {
 
   return (
     <nav>
-      <h1>Pohadkovo</h1>
+      <h1>zzZZzzzzZZ</h1>
       <button className={storiesStatus ? 'stories-active' : ''} onClick={openStoriesHandler}>
       pohadky
       <FontAwesomeIcon icon={faMusic}></FontAwesomeIcon>

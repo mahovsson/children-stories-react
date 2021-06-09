@@ -23,8 +23,10 @@ function App() {
   const [storiesStatus, setStoriesStatus] = useState(false);
 
   return (
-    <div className="App">
-    <Nav />
+    <div className={`App ${storiesStatus ? 'stories-active' : ''}`}>
+    <Nav storiesStatus={storiesStatus}
+    setStoriesStatus={setStoriesStatus}
+    />
       <h1>SUCK me</h1>
       <h2>idiotaaa</h2>
     </div>
