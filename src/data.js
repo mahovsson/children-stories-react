@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 
-function stories() {
+function data() {
   return [
     {
       name: "Beaver Creek",
@@ -66,4 +66,4 @@ function stories() {
   ];
 }
 
-export default stories;
+export default data;
