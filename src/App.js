@@ -27,8 +27,7 @@ function App() {
     <Nav storiesStatus={storiesStatus}
     setStoriesStatus={setStoriesStatus}
     />
-      <h1>SUCK me</h1>
-      <h2>idiotaaa</h2>
+
     </div>
   );
 }

@@ -12,7 +12,7 @@ const Nav = ({storiesStatus, setStoriesStatus}) => {
     <nav>
       <h1>zzZZzzzzZZ</h1>
       <button className={storiesStatus ? 'stories-active' : ''} onClick={openStoriesHandler}>
-      pohadky
+      Night Stories
       <FontAwesomeIcon icon={faMusic}></FontAwesomeIcon>
       </button>
     </nav>
