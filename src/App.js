@@ -28,7 +28,7 @@ function App() {
     <Nav storiesStatus={storiesStatus}
     setStoriesStatus={setStoriesStatus}
     />
-    <Library storiesStatus={storiesStatus} />
+    <Library stories={stories} storiesStatus={storiesStatus} />
 
     </div>
   );

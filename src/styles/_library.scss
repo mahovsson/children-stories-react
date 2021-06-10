@@ -18,6 +18,33 @@
   }
 }
 
+.library-stories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 2rem 1rem 2rem;
+  cursor: pointer;
+  transition: all 0.75s ease-out;
+
+  img {
+    width: 35%;
+  }
+  &:hover {
+    background:rgb(235,235,235);
+  }
+}
+
+.story-description {
+  padding-left: 1rem;
+  padding-top: 2rem;
+  h3 {
+    font-size: 1rem;
+  }
+  h4 {
+    font-size: 0.7rem;
+  }
+}
+
 /* The emerging W3C standard
    that is currently Firefox-only */
 * {
@@ -41,4 +68,14 @@
 .active-stories {
   transform: translateX(0%);
   opacity: 1;
+}
+
+.selected {
+  background: rgb(194, 208, 253);
+}
+
+@media screen and (max-width: 768px) {
+  .library {
+    width: 100%;
+  }
 }
