@@ -4,25 +4,28 @@ nav {
   justify-content:space-around;
   align-items: center;
 
+  h1 {
+    color: #c5c6d0;
+  }
+
   button {
-    background: transparent;
+    background: rgb(216,216, 216, 60%);
     border: none;
     cursor: pointer;
     padding: 1rem;
-    border-radius: 0.6rem;
-    border: 2px solid rgb(65,65,65);
+    border-radius: 5rem;
     transition: all 0.3s ease;
     svg {
       margin-left: 0.5rem;
     }
     &:hover {
-      background: rgb(65, 65, 65);
-      color: white;
+      background: rgb(216,216, 216);
+      color: black;
     }
   }
   .stories-active {
-    background: rgb(65, 65, 65);
-    color: white;
+    background: rgb(216,216, 216);
+    color: black;
   }
 }
 

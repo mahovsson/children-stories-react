@@ -10,9 +10,9 @@ const Nav = ({storiesStatus, setStoriesStatus}) => {
 
   return (
     <nav>
-      <h1>zzZZzzzzZZ</h1>
+      <h1>Good Night</h1>
       <button className={storiesStatus ? 'stories-active' : ''} onClick={openStoriesHandler}>
-      Night Stories
+      Stories
       <FontAwesomeIcon icon={faMusic}></FontAwesomeIcon>
       </button>
     </nav>

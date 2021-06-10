@@ -6,6 +6,10 @@
 
 body {
   font-family: 'Lato', sans-serif;
+  background-image: url('../assests/covers/Full\ HD.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
 .App {
@@ -28,5 +32,12 @@ h4 {
 	font-weight: 400;
 }
 
+@media screen and (max-width: 768px) {
+  body {
+  background-image: url('../assests/covers/Sky.svg');
+  }
+}
 
 @import './nav';
+
+
