@@ -1,7 +1,7 @@
 nav {
   min-height: 10vh;
   display: flex;
-  justify-content:space-around;
+  justify-content: flex-end;
   align-items: center;
 
   h1 {
@@ -9,23 +9,27 @@ nav {
   }
 
   button {
-    background: rgb(216,216, 216, 60%);
+    background: rgb(216,216, 216, 40%);
     border: none;
     cursor: pointer;
-    padding: 1rem;
+    padding: 1rem 2.5rem 1rem 2.5rem;
     border-radius: 5rem;
     transition: all 0.3s ease;
+    font-size: 1.5rem;
+    color: #d8d8d8;
+    font-weight: 500;
+    margin-right: 20%;
     svg {
-      margin-left: 0.5rem;
+      margin-left: 1rem;
     }
     &:hover {
       background: rgb(216,216, 216);
-      color: black;
+      color: #241960;
     }
   }
   .stories-active {
     background: rgb(216,216, 216);
-    color: black;
+    color: #241960;
   }
 }
 

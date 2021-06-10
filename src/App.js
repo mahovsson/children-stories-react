@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react';
 import './App.css';
 import './styles/app.scss';
 import Nav from './components/Nav';
+import Library from './components/Library';
 
 import data from './data';
 
@@ -27,6 +28,7 @@ function App() {
     <Nav storiesStatus={storiesStatus}
     setStoriesStatus={setStoriesStatus}
     />
+    <Library storiesStatus={storiesStatus} />
 
     </div>
   );
