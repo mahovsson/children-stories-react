@@ -3,6 +3,7 @@ import './App.css';
 import './styles/app.scss';
 import Nav from './components/Nav';
 import Library from './components/Library';
+import Story from './components/Story.js';
 import playAudio from './util';
 
 import data from './data';
@@ -56,6 +57,7 @@ function App() {
 				storiesStatus={storiesStatus}
 				setStoriesStatus={setStoriesStatus}
 			/>
+			<Story isPlaying={isPlaying} currentStory={currentStory} />
 			<Library
 				stories={stories}
 				storiesStatus={storiesStatus}

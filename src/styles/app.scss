@@ -1,15 +1,15 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-  font-family: 'Lato', sans-serif;
-  background-image: url('../assests/covers/Full\ HD.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
+	font-family: 'Lato', sans-serif;
+	background-image: url('../assests/covers/Full\ HD.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
 }
 
 .App {
@@ -20,7 +20,7 @@ body {
 }
 
 h1 {
-  font-size: 1rem;
+	font-size: 1rem;
 }
 
 h2 {
@@ -33,12 +33,11 @@ h4 {
 }
 
 @media screen and (max-width: 768px) {
-  body {
-  background-image: url('../assests/covers/Sky.svg');
-  }
+	body {
+		background-image: url('../assests/covers/Sky.svg');
+	}
 }
 
 @import './nav';
 @import './library';
-
-
+@import './story';
